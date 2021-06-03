@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Калькулятор шашлычника</h1>
+            <img class="fire" src="img/bonfire_icon-icons.com_60875.svg" alt="Костёр" />
+        </div>
+        <h2>Выберите мясо:</h2>
+        <div class="main">
+            <div class="food">
+                <input type="radio" name="meat" value="chicken" id="radio-chicken" checked />
+                <label for="radio-chicken">
+                    <img class="img-min" src="img/22266chicken_98785.svg" alt="Курица" />
+                </label>
+            </div>
+            <div class="food">
+                <input type="radio" name="meat" value="pig" id="radio-pig" />
+                <label for="radio-pig">
+                    <img class="img-min" src="img/22236pig_98799.svg" alt="Свинина" />
+                </label>
+            </div>
+            <div class="food">
+                <input type="radio" name="meat" value="fish" id="radio-fish" />
+                <label for="radio-fish">
+                    <img src="img/Fish_Food_icon-icons.com_68747.svg" alt="Рыба" />
+                </label>
+            </div>
+        </div>
+        <div class="sub-main">
+            <div class="people">
+                <h2>Введите количество человек на шашлыках:</h2>
+                <input type="text" name="people" value="1">
+            </div>
+            <h2 class="title">Выберите тип шашлыков:</h2>
+            <div class="time">
+                <div class="party">
+                    <h3>Turbo шашлыки</h3>
+                    <input type="radio" name="party" value="turbo" id="radio-turbo" checked />
+                    <label for="radio-turbo">
+                        <img src="img/cave_man_emoticon_emoji_sticker_hungry_icon_123513.svg" alt="Турбо шашлыки" />
+                    </label>
+                </div>
+                <div class="party">
+                    <h3>Middle шашлыки</h3>
+                    <input type="radio" name="party" value="middle" id="radio-middle" />
+                    <label for="radio-middle">
+                        <img src="img/cave_man_emoticon_emoji_sticker_music_icon_123510.svg" alt="Средние шашлыки" />
+                    </label>
+                </div>
+                <div class="party">
+                    <h3>Шашлыки до упора!</h3>
+                    <input type="radio" name="party" value="max" id="radio-max" />
+                    <label for="radio-max">
+                        <img src="img/cave_man_emoticon_emoji_sticker_love_icon_123500.svg" alt="Шашлыки до упора" />
+                    </label>
+                </div>
+            </div>
+        </div>
+        <h4></h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

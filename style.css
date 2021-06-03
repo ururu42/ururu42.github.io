@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-image: url(img/026-7e7.jpg);     
+}
+
+body::before {
+    background-color:rgba(0,0,0,.3);
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+    background-color: burlywood;
+    padding: 30px;
+    height: 100vh;
+    position: relative;   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fire {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px;
+}
+
+.food {
+    list-style: none;    
+}
+
+.food label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+
+.food input {
+    display: none;
+}
+
+.food input:checked ~ label {
+    border: 1px solid black;
+    background-image: url(img/basic-gunsight_98155.svg);
+    background-color: rgb(236, 113, 83);
+    background-size: 100%;
+    border-radius: 50%;        
+}
+
+label img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-min {
+    width: 130px;
+    height: 130px;
+}
+
+.sub-main {
+    
+}
+
+.title {
+    margin-top: 55px;
+}
+
+.people {
+    margin-top: 55px;
+    display: flex;
+    justify-content: start;
+}
+
+.people h2 {
+    margin-right: 30px;
+}
+
+.people input {
+    width: 80px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 5%;
+    border: 1px solid rgb(234, 243, 183);
+    background-color: rgb(234, 243, 183);
+    outline: none;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.party {
+    list-style: none;
+}
+
+.party label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+
+.party input {
+    display: none;
+}
+
+.party input:checked ~ label {
+    border: 1px solid black;
+    background-color: rgb(234, 243, 183);
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+.footer {
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    position: relative;
+    margin: 30px auto 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border: 1px solid rgb(53,167,110);
+    outline: none;
+}
+
+button:hover {
+    background: rgb(53, 167, 110);
+}
+
+button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
