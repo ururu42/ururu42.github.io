@@ -13,6 +13,11 @@ const food = [
         name: 'fish',
         coefficient: 0.5,
         price: 1000
+    },
+    {
+        name: 'sausage',
+        coefficient: 0.3,
+        price: 370
     }
 ]
 

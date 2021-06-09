@@ -76,10 +76,6 @@ label img {
     height: 130px;
 }
 
-.sub-main {
-    
-}
-
 .title {
     margin-top: 55px;
 }
@@ -167,4 +163,63 @@ button:active {
 h4 {
     font-size: 40px;
     text-align: center;
+}
+
+@media screen and (max-width: 767.99px) {
+
+    body {
+        background-image: none;
+    }
+
+    body::before {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .fire {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .food label {
+        width: 95px;
+        height: 95px;
+    }
+    
+    .img-min {
+        width: 80px;
+        height: 80px;
+    }
+
+    label img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .people input {
+        width: 50px;
+        height: 30px;
+        font-size: 20px;
+        margin: 22px 30px 0 0;
+    }
+
+    .party {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .party label {
+        width: 95px;
+        height: 95px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
 }
