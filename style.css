@@ -180,10 +180,24 @@ h4 {
         box-sizing: border-box;
     }
 
+    .header {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
     .fire {
-        width: 50px;
-        height: 50px;
-        margin-top: 15px;
+        width: 30px;
+        height: 30px;
+        margin-top: -8px;
+    }
+
+    h2 {
+        font-size: 17px;
+        margin-bottom: 20px;
     }
 
     .food label {
@@ -201,6 +215,14 @@ h4 {
         height: 90px;
     }
 
+    .title {
+        margin-top: 20px;
+    }
+
+    .people {
+        margin-top: 20px;
+    }
+
     .people input {
         width: 50px;
         height: 30px;
@@ -211,7 +233,11 @@ h4 {
     .party {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
+    }
+
+    h3 {
+        font-size: 15px;
     }
 
     .party label {
@@ -220,6 +246,6 @@ h4 {
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
