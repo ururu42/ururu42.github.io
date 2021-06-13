@@ -17,7 +17,7 @@ body::before {
     margin: 0 auto;
     background-color: burlywood;
     padding: 30px;
-    height: 100vh;
+    height: fit-content;
     position: relative;   
 }
 
