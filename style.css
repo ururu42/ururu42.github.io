@@ -169,6 +169,8 @@ h4 {
 
     body {
         background-image: none;
+        background-color: burlywood;
+        height: fit-content;
     }
 
     body::before {
