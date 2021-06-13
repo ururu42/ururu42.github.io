@@ -178,6 +178,7 @@ h4 {
     .container {
         width: 100%;
         box-sizing: border-box;
+        height: fit-content;
     }
 
     .header {
